@@ -1,5 +1,8 @@
 # bugfix.py
 def buggy_function():
-    # Оригінальний код з помилкою
-    # Синтаксична помилка: відсутнє ключове слово return
-    "Bug fixed"
+    # Fixed code
+    try:
+        result = 1 / 1  # Виправлення помилки
+    except ZeroDivisionError:
+        result = None
+    return result

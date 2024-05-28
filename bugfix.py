@@ -1,5 +1,5 @@
 # bugfix.py
 def buggy_function():
-    # Old code with a bug
-    # Fixed code
-    return "Bug fixed"
+    # Оригінальний код з помилкою
+    # Синтаксична помилка: відсутнє ключове слово return
+    "Bug fixed"
